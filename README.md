@@ -1,5 +1,3 @@
-# noma-voice-hub
-Voice-first toolkit for township micro-enterprises
 # Noma Voice Hub 🌍🔊  
 **Decentralized, Offline-First OS for Informal Economies**
 
@@ -9,7 +7,7 @@ Voice-first toolkit for township micro-enterprises
 
 ## 🔧 What Is Noma?
 
-**Noma** is a modular, offline-capable operating system built to empower the informal economy through voice-first interaction, low-power hardware, and hyperlocal mesh syncing. Think of it as the **digital assistant for township hustlers**, designed to work **with or without internet**, in multiple languages, with dignity and accessibility at its core.
+**Noma** is a modular, offline-capable operating system built to empower the informal economy through voice-first interaction, low-power hardware, and hyperlocal mesh syncing. Think of it as the **digital assistant for township hustlers** — designed to work **with or without internet**, in multiple languages, with dignity and accessibility at its core.
 
 ---
 
@@ -22,41 +20,45 @@ Voice-first toolkit for township micro-enterprises
   Fully functional without constant internet. Syncs via Bluetooth or Wi-Fi mesh.
 
 - 📦 **Modular Toolkit**  
-  Inventory, payments, loyalty programs, job boards, and delivery tools — plug what you need.
+  Inventory, payments, loyalty programs, job boards, delivery — plug what you need.
 
 - 🔐 **Local Identity System**  
-  Voice alias + hash codes = no emails or passwords needed.
+  Voice alias + hash codes — no email, no passwords, no friction.
 
 - ⚡ **Solar-Friendly, Low-Power Ready**  
   Designed to run on energy-efficient devices with long battery life.
 
 - 💬 **WhatsApp Integration (Experimental)**  
-  Early-stage prototype to enable voice chat, orders, and receipts via WhatsApp.
+  Early prototype for voice chat, order capture, and receipts via WhatsApp.
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 - `React Native` + lightweight PWA frontend  
-- `SQLite` or `PouchDB` for local-first DB  
-- Custom voice layer using `Whisper` + local dialect samples  
-- `Bridgefy`-like Bluetooth mesh for syncing  
-- JSON-driven dynamic module loader  
-- Optional Azure sync for cloud backups
+- `SQLite` or `PouchDB` for local-first storage  
+- Custom voice layer using `Whisper` + dialect tuning  
+- `Bridgefy`-style Bluetooth mesh for offline sync  
+- JSON-driven dynamic module system  
+- Optional `Azure` sync for cloud backup and analytics
 
 ---
 
 ## 🧪 Use Case Scenarios
 
 ### 🧑🏾 Naledi the Spaza Owner  
-Tracks daily sales by voice, sends customer specials via WhatsApp, and earns bulk-order discounts by syncing orders with nearby shops.
+- Tracks sales by voice  
+- Sends customer specials via WhatsApp  
+- Earns bulk-order discounts by syncing with nearby shops  
 
 ### 🚗 Bheki the Taxi Driver  
-Logs maintenance by voice, uses Noma map for traffic heat zones, and lets passengers pay with QR codes — no app install needed.
+- Logs maintenance by voice  
+- Navigates using traffic heat zones  
+- Passengers pay via QR code — no app needed  
 
 ---
 
-## 📦 Folder Structure (Planned)
+## 📁 Planned Folder Structure
 
 ```bash
 noma-voice-hub/
@@ -67,3 +69,12 @@ noma-voice-hub/
 ├── /ux-wireframes/   # Design drafts & diagrams
 ├── /docs/            # Research PDFs, proposals
 └── README.md
+
+🤝 Get Involved
+
+This is an early-stage prototype with room to grow. If you're into tech for good, voice AI, or building with purpose, feel free to fork, star ⭐ or reach out.
+
+
+---
+
+> “Designed in community. Built for dignity.”
